@@ -6,7 +6,7 @@ export class Bat {
     this.board = board;
     this.x = 0;
     this.y = this.board.y - 100;
-    this.z = -10;
+    this.z = -8;
     this.r = 5 * 10 / 400 * this.board.width;
 
     this.lastX = 0

@@ -17,7 +17,7 @@ export class Ball {
     // this.dz = 5 / 400 * this.board.width;
 
     this.dx = 0;
-    this.dy = 0;
+    this.dy = 10;
     this.dz = 0;
 
     this.maxY = this.board.y;

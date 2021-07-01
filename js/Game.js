@@ -29,7 +29,7 @@ export class Game {
     this.bgRadius = Math.floor(this.canvas.width * 1.2);
     this.bgCenter = {
       x: this.canvas.width / 2,
-      y: this.canvas.width * 1.4
+      y: this.canvas.width * 1.2
       // y: this.canvas.height * 2.8
 
     }
@@ -43,7 +43,7 @@ export class Game {
 
 
 
-    this.gravity = 0.006;
+    this.gravity = 0.004;
     this.isStarted = false;
     this.hasServed = false;
 

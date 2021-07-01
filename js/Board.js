@@ -6,19 +6,19 @@ export class Board {
     this.canvas = canvas;
     this.ctx = ctx;
 
-    this.x = 0;
-    this.y = 300;
-    this.z = 0;
+    this.x = 500;
+    this.y = 400;
+    this.z = 500;
 
     //Dimensions of the board
-    this.width = this.canvas.width / 2 * 0.65; //xMax
+    this.width = this.canvas.width / 2 * 0.75; //xMax
     this.thickness = 10 / 400 * this.canvas.width / 2; //yMax
     this.length = 720 / 400 * this.canvas.width / 2; //zMax
 
     this.netHeight = this.y - 55 / 400 * this.width;
     this.netPosition = this.length / 2;
 
-    this.legLength = 200;
+    this.legLength = 400;
 
     this.borderWidth = 10 / 400 * this.width;
 
