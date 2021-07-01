@@ -9,10 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SafalPandey/js-table-tennis/issues"
-  },
-  "homepage": "https://github.com/SafalPandey/js-table-tennis#readme",
   "devDependencies": {
     "webpack": "^3.8.1"
   }
