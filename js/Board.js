@@ -18,7 +18,7 @@ export class Board {
     this.netHeight = this.y - 55 / 400 * this.width;
     this.netPosition = this.length / 2;
 
-    this.legLength = 300;
+    this.legLength = 200;
 
     this.borderWidth = 10 / 400 * this.width;
 
